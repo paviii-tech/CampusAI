@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Announcements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>📢 Announcements</h1>
+
+<input
+id="announcementInput"
+type="text"
+placeholder="Enter announcement">
+
+<br><br>
+
+<button onclick="addAnnouncement()">
+Add Announcement
+</button>
+
+<br><br>
+
+<div id="announcementList"></div>
+
+<button onclick="window.location.href='dashboard.html'">
+⬅ Back to Dashboard
+</button>
+<script src="script.js"></script>
+<script>
+getAnnouncements();
+</script>
+
+</body>
+</html>
