@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Reminders</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🔔 Reminders</h1>
+
+<input
+id="reminderTitle"
+type="text"
+placeholder="Reminder Title">
+
+<br><br>
+
+<input
+id="reminderDate"
+type="date">
+
+<br><br>
+
+<input
+id="reminderTime"
+type="time">
+
+<br><br>
+
+<button onclick="addReminder()">
+Add Reminder
+</button>
+
+<br><br>
+
+<div id="reminderList"></div>
+
+<button onclick="window.location.href='dashboard.html'">
+⬅ Back to Dashboard
+</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
